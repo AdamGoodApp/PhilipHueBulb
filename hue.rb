@@ -2,11 +2,12 @@ require 'hue'
 require 'pry'
 require 'twitter'
 
-# Twitter.configure do |config|
-# 	  config.consumer_key = "bImywraQHjRNo1YF7oTtg"
-# 	  config.consumer_secret = "BHTkRR8KWswRLQjLNf9u6kSZXWv1Kaz5MTV4StXib4"
-# 	  config.oauth_token = "1442146753-hyciZqbBKhbpYa2kG5cmH07eoxwvAaT1CF0DuAt"
-# 	  config.oauth_token_secret = "8m8gbARgRVfZCJggTmRdYRS4qGIMgwDGwoHq9ptdaM8bb"
+# TweetStream.configure do |config|
+#   config.consumer_key       = ENV[‘TWITTER_CONSUMER_KEY’]
+#   config.consumer_secret    = ENV[‘TWITTER_CONSUMER_SECRET’]
+#   config.oauth_token        = ENV[‘TWITTER_OAUTH_TOKEN’]
+#   config.oauth_token_secret = ENV[‘TWITTER_OAUTH_SECRET’]
+#   config.auth_method        = :oauth
 # end
 
 
